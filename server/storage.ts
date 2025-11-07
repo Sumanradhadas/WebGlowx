@@ -46,13 +46,6 @@ export class MemStorage implements IStorage {
         liveUrl: "https://glamour-salon.onrender.com/"
       },
       {
-        title: "Urban Fashion Store",
-        description: "E-commerce website with product catalog, shopping cart, and secure checkout for local boutique.",
-        category: "Retail",
-        image: "/attached_assets/generated_images/Retail_store_website_c4b5a5d3.png",
-        liveUrl: "https://example.com/fashion"
-      },
-      {
         title: "ProConsult Services",
         description: "Professional consulting firm website with team showcase, service overview, and client contact form.",
         category: "Professional Services",
@@ -64,14 +57,14 @@ export class MemStorage implements IStorage {
         description: "Dynamic fitness center website with class schedules, trainer profiles, and membership plans.",
         category: "Fitness",
         image: "/attached_assets/generated_images/Fitness_gym_website_418d1cd0.png",
-        liveUrl: "https://example.com/gym"
+        liveUrl: "https://proconsultservice.netlify.app"
       },
       {
         title: "Sweet Crust Bakery",
         description: "Warm and inviting bakery website with product showcase, online ordering, and delivery information.",
         category: "Food & Beverage",
         image: "/attached_assets/generated_images/Bakery_website_showcase_d8c9713f.png",
-        liveUrl: "https://example.com/bakery"
+        liveUrl: "https://sweetcrust-v5lp.onrender.com"
       }
     ];
 
