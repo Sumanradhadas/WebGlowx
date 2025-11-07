@@ -57,7 +57,7 @@ export class MemStorage implements IStorage {
         description: "Dynamic fitness center website with class schedules, trainer profiles, and membership plans.",
         category: "Fitness",
         image: "/attached_assets/generated_images/Fitness_gym_website_418d1cd0.png",
-        liveUrl: "https://proconsultservice.netlify.app"
+        liveUrl: "https://powerfitgymx.netlify.app"
       },
       {
         title: "Sweet Crust Bakery",
