@@ -57,7 +57,7 @@ export class MemStorage implements IStorage {
         description: "Professional consulting firm website with team showcase, service overview, and client contact form.",
         category: "Professional Services",
         image: "/attached_assets/generated_images/Professional_services_website_b348f4e7.png",
-        liveUrl: "https://example.com/consulting"
+        liveUrl: "https://proconsultservice.netlify.app/"
       },
       {
         title: "PowerFit Gym",
