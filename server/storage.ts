@@ -43,7 +43,7 @@ export class MemStorage implements IStorage {
         description: "Elegant salon website featuring service bookings, before-after gallery, and staff profiles.",
         category: "Beauty & Wellness",
         image: "/attached_assets/generated_images/Beauty_salon_website_e37da707.png",
-        liveUrl: "https://example.com/salon"
+        liveUrl: "https://glamour-salon.onrender.com/"
       },
       {
         title: "Urban Fashion Store",
