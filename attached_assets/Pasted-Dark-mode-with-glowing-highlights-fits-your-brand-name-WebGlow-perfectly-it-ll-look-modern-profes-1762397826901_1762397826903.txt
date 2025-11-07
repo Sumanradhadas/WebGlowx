@@ -1,0 +1,169 @@
+Dark mode with glowing highlights fits your brand name WebGlow perfectly — it’ll look modern, professional, and slightly futuristic (exactly what small businesses love because it feels “premium”).
+
+Below is your complete, ready-to-run WebGlow homepage (dark mode).
+Just copy–paste this into Replit (HTML, CSS, JS project).
+You’ll have your full working site — no extra setup needed.
+
+🖥️ index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WebGlow | Shine Your Business Online</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>⚡ WebGlow</h1>
+    <p>Shine your business online — affordable websites & social media growth.</p>
+    <a href="#contact" class="btn">Get Started</a>
+  </header>
+
+  <section class="services">
+    <h2>Our Services</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>🌐 Website Design</h3>
+        <p>Modern one-page or small websites to showcase your business online.</p>
+      </div>
+      <div class="card">
+        <h3>📱 Social Media Handling</h3>
+        <p>We manage your social pages, post regularly & engage your customers — ₹500/month.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="why">
+    <h2>Why Choose WebGlow?</h2>
+    <div class="points">
+      <div>⚡ Fast Delivery</div>
+      <div>💰 Affordable Pricing</div>
+      <div>💬 WhatsApp Support</div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>📧 <a href="mailto:webglowconnect@gmail.com">webglowconnect@gmail.com</a></p>
+    <p>💬 <a href="https://wa.me/91XXXXXXXXXX" target="_blank">Chat on WhatsApp</a></p>
+  </section>
+
+  <footer>
+    © 2025 WebGlow | Shine your business online
+  </footer>
+</body>
+</html>
+
+🎨 style.css
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700&display=swap');
+
+body {
+  font-family: 'Outfit', sans-serif;
+  background-color: #0a0a0a;
+  color: #e8e8e8;
+  margin: 0;
+  text-align: center;
+}
+
+header {
+  background: radial-gradient(circle at center, #111122, #000);
+  padding: 4rem 1rem 3rem;
+  color: #fff;
+  box-shadow: 0 0 25px rgba(0, 200, 255, 0.3);
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #00d9ff;
+  text-shadow: 0 0 10px #00d9ff;
+}
+
+h2 {
+  color: #00b8ff;
+  text-shadow: 0 0 5px #00b8ff;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.7rem 1.4rem;
+  color: #000;
+  background: #00d9ff;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  box-shadow: 0 0 15px #00d9ff;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px #00eaff;
+}
+
+.services, .why, .contact {
+  padding: 2rem 1rem;
+  background-color: #0e0e0e;
+  border-top: 1px solid #111;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  max-width: 700px;
+  margin: 1rem auto;
+}
+
+.card {
+  background: linear-gradient(135deg, #121212, #1a1a1a);
+  border: 1px solid #222;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 0 20px rgba(0, 200, 255, 0.08);
+  transition: 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 0 25px rgba(0, 200, 255, 0.25);
+  transform: translateY(-4px);
+}
+
+.points {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+  font-size: 1.1rem;
+}
+
+.contact a {
+  color: #00d9ff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.contact a:hover {
+  text-shadow: 0 0 10px #00d9ff;
+}
+
+footer {
+  background: #050505;
+  padding: 1rem;
+  font-size: 0.9rem;
+  border-top: 1px solid #111;
+}
+
+🌌 Result
+
+This version gives you:
+
+Glowing neon highlights (aqua blue)
+
+Dark, professional feel
+
+Smooth hover effects and depth
+
+Easy customization — just change text and phone number
